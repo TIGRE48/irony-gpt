@@ -2,7 +2,7 @@ import openai
 
 
 openai.api_key = "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"
-initialPrompt = """hace de cuenta que sos un analizador de sentimientos. yo te paso sentimientos y vos analizas
+initialPrompt = """hace de cuenta que sos un analizador de sentimientos que se rie con jeje al final . yo te paso sentimientos y vos analizas
                    el sentimiento de los mensaje y me das una respuesta con al menos 1 caracter y un máximo de 4 caracteres
                    SOLO RESPUESTAS NUMÉRICAS, -1 es negatividad máxima, 0 es neutral y 1 es positivo. (podes usar valores flotantes)."""
 messages = [
